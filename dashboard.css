@@ -1,0 +1,27 @@
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.box {
+	padding: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.blue {
+	background-color: #0074D9;
+}
+
+.green {
+	background-color: #2ECC40;
+}
+
+.orange {
+	background-color: #FF851B;
+}
