@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="kenderaan-layout.css" type="text/css" />
 </head>
 <body id="top">
+<div class="container">
 <div class="wrapper col1">
   <div id="header">
     <div class="center">
@@ -15,6 +16,7 @@
 </div>
 <!-- ####################################################################################################### -->
 <div class="wrapper col2">
+<div id="input-field">
   <div id="topbar">
     <div id="topnav">
       <ul>
@@ -25,21 +27,112 @@
 
 <!-- ####################################################################################################### -->
 
+<!DOCTYPE html>
+<html>
+</head>
+<body>
+	<h1>JABATAN AKAUNTAN NEGARA MALAYSIA CAWANGAN LIMBANG</h1>
+	<h2>BORANG PERMOHONAN PENGGUNAAN KENDERAAN JABATAN</h2>
 
-<table>
-  <tr>
-    <th>Column 1 Header</th>
-    <th>Column 2 Header</th>
-  </tr>
-  <tr>
-    <td>Row 1 Column 1 Data</td>
-    <td>Row 1 Column 2 Data</td>
-  </tr>
-  <tr>
-    <td>Row 2 Column 1 Data</td>
-    <td>Row 2 Column 2 Data</td>
-  </tr>
-</table>
+	<form>
+		<label for="nama_pegawai">Nama Pegawai:</label>
+		<input type="text" id="nama_pegawai" name="nama_pegawai" class="input-field"><br><br>
+
+		<label for="jawatan">Jawatan:</label>
+		<input type="text" id="jawatan" name="jawatan" class="input-field"><br><br>
+		
+		<label for="seksyen_unit">Seksyen/Unit:</label>
+		<select id="seksyen_unit" name="seksyen_unit" class="input-field">
+		<option value="Seksyen_Pengurusan">Pejabat Pengarah</option>
+		<option value="Seksyen_Pengurusan">Seksyen Pengurusan</option>
+		<option value="Seksyen_Pengurusan">Seksyen Pengurusan / Unit Pengurusan Khidmat Pelanggan</option>
+		<option value="Seksyen_Pengurusan">Seksyen Pengurusan / Unit Perkhidmatan dan Kewangan</option>
+		
+		<option value="Seksyen_Operasi">Seksyen Operasi</option>
+		<option value="Seksyen_Pengurusan">Seksyen Operasi / Unit Pengurusan Dana</option>
+		<option value="Seksyen_Pengurusan">Seksyen Operasi / Unit Teknikal</option>
+		<option value="Seksyen_Pengurusan">Seksyen Operasi / Unit Akaun</option>
+		<option value="Seksyen_Pengurusan">Seksyen Operasi / Unit Gaji</option>
+
+		<option value="Seksyen_Pemantauan">Seksyen Pemantauan</option>
+		<option value="Seksyen_Pemantauan">Seksyen Pemantauan / Unit Naziran</option>
+		<option value="Seksyen_Pemantauan">Seksyen Pemantauan / Unit Pengurusan Aset</option>
+
+		</select> <br><br>
+
+		<label for="tarikh">Tarikh:</label>
+		<input type="date" id="tarikh" name="tarikh"><br><br>
+
+	
+	</form>
+	
+	
+	<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	
+		table {
+			border-collapse: collapse;
+			width: 96%;
+		}
+		td, th {
+			border: 1px solid black;
+			padding: 8px;
+			text-align: left;
+		}
+		th {
+			background-color: #f2f2f2;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th>Bil</th>
+				<th>TUJUAN</th>
+				<th>DARI</th>
+				<th>KE</th>
+				<th>TARIKH/MASA</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+
+  <td>1</td>
+  <td><input type="text" id="nama_pegawai" name="nama_pegawai" style="width: 100%;"></td>
+  <td><input type="text" id="nama_pegawai" name="nama_pegawai" style="width: 100%;"></td>
+  <td><input type="text" id="nama_pegawai" name="nama_pegawai" style="width: 100%;"></td>
+  <td><input type="date" id="tarikh" name="tarikh" style="width: 45%;"> - <input type="date" id="tarikh" name="tarikh" style="width: 45%;"></td>
+</tr>
+<tr>
+  <td>2</td>
+  <td><input type="text" id="nama_pegawai" name="nama_pegawai" style="width: 100%;"></td>
+  <td><input type="text" id="nama_pegawai" name="nama_pegawai" style="width: 100%;"></td>
+  <td><input type="text" id="nama_pegawai" name="nama_pegawai" style="width: 100%;"></td>
+  <td><input type="date" id="tarikh" name="tarikh" style="width: 45%;"> - <input type="date" id="tarikh" name="tarikh" style="width: 45%;"></td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><input type="text" id="nama_pegawai" name="nama_pegawai" style="width: 100%;"></td>
+  <td><input type="text" id="nama_pegawai" name="nama_pegawai" style="width: 100%;"></td>
+  <td><input type="text" id="nama_pegawai" name="nama_pegawai" style="width: 100%;"></td>
+  <td><input type="date" id="tarikh" name="tarikh" style="width: 45%;"> - <input type="date" id="tarikh" name="tarikh" style="width: 45%;"></td>
+</tr>
+
+		
+		</div>
+		</div>
+		</tbody>
+	</table>
+	</div>
+	TANDATANGAN PEGAWAI
+</body>
+</html>
+
+</body>
+</html>
 
 
 
