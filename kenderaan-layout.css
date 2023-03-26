@@ -104,6 +104,15 @@ body {
     padding: 20px;
   }
   
+  /* Ruang input text */
+  .input-field {
+  width: 400px;
+  background-color: transparent;
+  border: transparent; /* optional border style */
+}
+
+
+  
   #search input[type="text"] {
     width: 200px;
     padding: 5px;
@@ -117,4 +126,4 @@ body {
     border: none;
     cursor: pointer;
   }
-  
+ 
