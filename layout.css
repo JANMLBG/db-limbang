@@ -5,6 +5,13 @@ font-family: Arial, sans-serif;
 background-color: #0077be;
 }
 
+body {
+  background-image: url('https://drive.google.com/uc?export=view&id=1AXlKiwRP2ZTjfAR5DjkRlIKpytZqndYD');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 /* Header */
 #header {
 background-color: #00BFFF;
